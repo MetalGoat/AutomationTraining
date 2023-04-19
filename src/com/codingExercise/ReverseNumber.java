@@ -13,8 +13,7 @@ public class ReverseNumber {
         System.out.println("Enter a number:");
         number=nr.nextInt();
 
-        while(number!=0)
-        {
+        while(number!=0) {
             result=number%10;
             reverse=(reverse*10)+result;
             number=number/10;

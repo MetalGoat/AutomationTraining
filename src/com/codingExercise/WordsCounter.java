@@ -2,7 +2,7 @@ package com.codingExercise;
 
 import java.util.Scanner;
 
-public class NumberOfWordsInAString {
+public class WordsCounter {
     public static void main(String[] args) {
 
         Scanner sc= new Scanner(System.in);
@@ -12,8 +12,7 @@ public class NumberOfWordsInAString {
         int count=1;
 
         int string = text.length();
-        for(int i=0;i<string;i++)
-        {
+        for(int i=0;i<string;i++) {
             if(text.charAt(i)==' ')
             {
                 count++;

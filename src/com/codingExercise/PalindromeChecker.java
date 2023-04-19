@@ -2,7 +2,7 @@ package com.codingExercise;
 
 import java.util.Scanner;
 
-public class CheckIfPalindrome {
+public class PalindromeChecker {
     public static void main(String[] args) {
 
         Scanner string = new Scanner(System.in);

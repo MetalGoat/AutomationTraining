@@ -2,7 +2,7 @@ package com.codingExercise;
 
 import java.util.Scanner;
 
-public class NumberOfCharacters {
+public class CharactersCounter {
     public static void main(String[] args) {
 
         Scanner string = new Scanner(System.in);
@@ -13,8 +13,7 @@ public class NumberOfCharacters {
         int lower = 0;
         int number = 0;
 
-        for(int i = 0; i < text.length(); i++)
-        {
+        for(int i = 0; i < text.length(); i++) {
             char ch = text.charAt(i);
             if (ch >= 'A' && ch <= 'Z')
                 upper++;
@@ -24,8 +23,8 @@ public class NumberOfCharacters {
                 number++;
         }
 
-        System.out.println("Lower case letters : " + lower);
-        System.out.println("Upper case letters : " + upper);
-        System.out.println("Number : " + number);
+        System.out.println("Lower case letters: " + lower);
+        System.out.println("Upper case letters: " + upper);
+        System.out.println("Number: " + number);
     }
 }
